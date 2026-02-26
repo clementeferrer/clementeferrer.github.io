@@ -39,7 +39,7 @@ export default function HomeContent({ profile, social, news }: HomeContentProps)
     script.type = "text/javascript";
     script.id = "mapmyvisitors";
     script.src =
-      "https://mapmyvisitors.com/map.js?cl=080808&w=400&t=tt&d=kEigzcBA3DiAHilrCn9XjjjEKKxV27MN8jdvZiCULfk&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353";
+      "https://mapmyvisitors.com/map.js?cl=d8d3cb&w=400&t=tt&d=kEigzcBA3DiAHilrCn9XjjjEKKxV27MN8jdvZiCULfk&co=faf9f7&ct=6b7280&cmo=93bbfd&cmn=1a365d";
     mapRef.current.appendChild(script);
   }, []);
 
