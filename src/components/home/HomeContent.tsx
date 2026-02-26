@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import dynamic from "next/dynamic";
@@ -30,6 +31,17 @@ interface HomeContentProps {
 export default function HomeContent({ profile, social, news }: HomeContentProps) {
   const shouldReduceMotion = useReducedMotion();
   const recentNews = news.slice(0, 3);
+  const mapRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!mapRef.current || mapRef.current.querySelector("script")) return;
+    const script = document.createElement("script");
+    script.type = "text/javascript";
+    script.id = "mapmyvisitors";
+    script.src =
+      "https://mapmyvisitors.com/map.js?cl=080808&w=400&t=tt&d=kEigzcBA3DiAHilrCn9XjjjEKKxV27MN8jdvZiCULfk&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353";
+    mapRef.current.appendChild(script);
+  }, []);
 
 
   return (
@@ -154,6 +166,13 @@ export default function HomeContent({ profile, social, news }: HomeContentProps)
             </div>
           ))}
         </div>
+      </section>
+
+      <hr className="border-border my-8" />
+
+      {/* Visitor Map */}
+      <section className="flex justify-center">
+        <div ref={mapRef} className="overflow-hidden rounded-lg" />
       </section>
     </div>
   );
