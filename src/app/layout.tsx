@@ -33,6 +33,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+      </head>
       <body className={`${inter.variable} ${sourceSerif.variable} font-sans antialiased`}>
         <Providers>
           <a
