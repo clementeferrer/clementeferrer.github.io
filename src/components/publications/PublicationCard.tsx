@@ -23,7 +23,7 @@ export default function PublicationCard({ publication }: PublicationCardProps) {
   return (
     <div className={`border-l-2 ${statusBorderColor[publication.status] || ""} pl-4 py-2`}>
       <div className="flex items-baseline gap-2 mb-1 flex-wrap">
-        <h3 className="font-serif font-semibold leading-snug">{publication.title}</h3>
+        <h3 className="font-serif font-semibold leading-snug uppercase">{publication.title}</h3>
         {publication.year > 0 && <span className="text-xs text-muted">{publication.year}</span>}
         <Badge className={`${getStatusColor(publication.status)} ml-auto`}>
           {statusLabel}

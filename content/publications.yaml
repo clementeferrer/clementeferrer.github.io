@@ -22,10 +22,9 @@ publications:
     status: "accepted"
   - title: "A new coefficient to measure agreement between two continuous variables"
     authors: ["Vallejos, R.", "Osorio, F.", "Ferrer, C."]
-    journal: "Statistics in Medicine"
+    journal: "Biometrical Journal"
     year: 2025
     status: "submitted"
-    note: "Under Review"
   - title: "Modeling first-year engineering student performance during the pandemic"
     authors: ["Vallejos, R.", "Ferrer, C.", "Vásquez, A.", "Díaz, R.", "Marín, T."]
     journal: "The New England Journal of Statistics in Data Science"
