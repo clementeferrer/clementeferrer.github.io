@@ -1,5 +1,5 @@
 publications:
-  - title: "Is the effective sample size always less than n? A spatial regression approach"
+  - title: "Is the Effective Sample Size Always Less Than n? A Spatial Regression Approach"
     authors: ["Ferrer, C.", "Vallejos, R."]
     journal: "Statistics and Probability Letters"
     volume: "218"
@@ -7,7 +7,7 @@ publications:
     year: 2025
     status: "published"
     doi: "https://doi.org/10.1016/j.spl.2024.110309"
-  - title: "A concordance coefficient for lattice data: An application to poverty indices in Chile"
+  - title: "A Concordance Coefficient for Lattice Data: An Application to Poverty Indices in Chile"
     authors: ["Vallejos, R.", "Ferrer, C.", "Mateu, J."]
     journal: "Spatial Statistics"
     volume: "70"
@@ -15,17 +15,17 @@ publications:
     year: 2025
     status: "published"
     doi: "https://doi.org/10.1016/j.spasta.2024.100936"
-  - title: "A Kolmogorov–Arnold Neural Model for Cascading Extremes"
+  - title: "A Kolmogorov\u2013Arnold Neural Model for Cascading Extremes"
     authors: ["De Carvalho, M.", "Ferrer, C.", "Vallejos, R."]
     journal: "Extremes"
     year: 2026
     status: "accepted"
-  - title: "A new coefficient to measure agreement between two continuous variables"
+  - title: "A New Coefficient to Measure Agreement Between Two Continuous Variables"
     authors: ["Vallejos, R.", "Osorio, F.", "Ferrer, C."]
     journal: "Biometrical Journal"
     year: 2025
     status: "submitted"
-  - title: "Modeling first-year engineering student performance during the pandemic"
+  - title: "Modeling First-Year Engineering Student Performance During the Pandemic"
     authors: ["Vallejos, R.", "Ferrer, C.", "Vásquez, A.", "Díaz, R.", "Marín, T."]
     journal: "The New England Journal of Statistics in Data Science"
     year: 2025
