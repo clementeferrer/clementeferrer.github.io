@@ -46,6 +46,9 @@ export const metadata: Metadata = {
     follow: true,
   },
   authors: [{ name: siteConfig.author, url: siteConfig.url }],
+  verification: {
+    google: "Y02Oy8qDwcvHrC5hraQWAGDaJaj1R1rAul2NNIF76KA",
+  },
 };
 
 export default function RootLayout({
