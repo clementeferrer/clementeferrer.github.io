@@ -6,6 +6,7 @@ import Link from "next/link";
 import dynamic from "next/dynamic";
 import { Canvas } from "@react-three/fiber";
 import { useReducedMotion } from "framer-motion";
+import { useTheme } from "next-themes";
 import { Download, Mail, Github, Linkedin, GraduationCap, Newspaper, Lightbulb } from "lucide-react";
 import ResearchInterests from "@/components/profile/ResearchInterests";
 import { formatMonthYear } from "@/lib/utils";
@@ -32,16 +33,22 @@ export default function HomeContent({ profile, social, news }: HomeContentProps)
   const shouldReduceMotion = useReducedMotion();
   const recentNews = news.slice(0, 3);
   const mapRef = useRef<HTMLDivElement>(null);
+  const { resolvedTheme } = useTheme();
 
   useEffect(() => {
-    if (!mapRef.current || mapRef.current.querySelector("script")) return;
+    if (!mapRef.current) return;
+    // Clear previous widget when theme changes
+    mapRef.current.innerHTML = "";
+    const isDark = resolvedTheme === "dark";
+    const params = isDark
+      ? "cl=30363d&w=400&t=tt&d=kEigzcBA3DiAHilrCn9XjjjEKKxV27MN8jdvZiCULfk&co=0d1117&ct=8b949e&cmo=3b82f6&cmn=60a5fa"
+      : "cl=d8d3cb&w=400&t=tt&d=kEigzcBA3DiAHilrCn9XjjjEKKxV27MN8jdvZiCULfk&co=faf9f7&ct=6b7280&cmo=93bbfd&cmn=1a365d";
     const script = document.createElement("script");
     script.type = "text/javascript";
     script.id = "mapmyvisitors";
-    script.src =
-      "https://mapmyvisitors.com/map.js?cl=d8d3cb&w=400&t=tt&d=kEigzcBA3DiAHilrCn9XjjjEKKxV27MN8jdvZiCULfk&co=faf9f7&ct=6b7280&cmo=93bbfd&cmn=1a365d";
+    script.src = `https://mapmyvisitors.com/map.js?${params}`;
     mapRef.current.appendChild(script);
-  }, []);
+  }, [resolvedTheme]);
 
 
   return (
