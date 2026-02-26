@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="mt-12 pb-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-col items-center gap-4">
-        <div id="mapmyvisitors-container" className="w-[280px] overflow-hidden rounded-lg">
+        <div id="mapmyvisitors-container" className="w-[300px] h-[190px] overflow-hidden rounded-lg [&_iframe]:w-full [&_iframe]:h-full [&_img]:max-w-full [&_img]:h-auto">
           <Script
             id="mapmyvisitors"
             src="https://mapmyvisitors.com/map.js?cl=080808&w=a&t=tt&d=kEigzcBA3DiAHilrCn9XjjjEKKxV27MN8jdvZiCULfk&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353"
