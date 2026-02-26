@@ -4,6 +4,9 @@ export const siteConfig = {
   description:
     "Academic portfolio of Clemente Ferrer — PhD Student in Statistics, researcher in Extreme Value Theory, Bayesian Nonparametrics, and Statistics & AI.",
   url: "https://clementeferrer.github.io",
+  author: "Clemente Ferrer",
+  image: "/images/Profile_photo.png",
+  locale: "en_US",
 };
 
 export const navItems = [
