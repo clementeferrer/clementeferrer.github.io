@@ -1,20 +1,18 @@
+"use client";
+
+import Script from "next/script";
+
 export default function Footer() {
   return (
     <footer className="mt-12 pb-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 flex flex-col items-center gap-4">
-        <a
-          href="https://clustrmaps.com/site/1c1z9"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Visit tracker"
-        >
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="//www.clustrmaps.com/map_v2.png?d=XFsEJa6BOCMNrKMy2deDn5y72fcOfVQ_MbePwOFntLY&cl=ffffff"
-            alt="Visitors map"
-            className="rounded-lg"
+        <div id="mapmyvisitors-container">
+          <Script
+            id="mapmyvisitors"
+            src="https://mapmyvisitors.com/map.js?cl=080808&w=a&t=tt&d=kEigzcBA3DiAHilrCn9XjjjEKKxV27MN8jdvZiCULfk&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353"
+            strategy="lazyOnload"
           />
-        </a>
+        </div>
         <p className="text-xs text-muted">
           &copy; {new Date().getFullYear()} Clemente Ferrer
         </p>
