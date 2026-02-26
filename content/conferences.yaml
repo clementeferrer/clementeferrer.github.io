@@ -1,0 +1,77 @@
+conferences:
+  - title: "A Spatial Concordance Coefficient for Areal Data"
+    authors: ["Ferrer, C.", "Vallejos, R."]
+    event: "II Congreso Geoestadística y Estadística Espacio-Temporal"
+    location: "Concepción, Chile"
+    date: "December 11-15, 2023"
+    year: 2023
+    role: "speaker"
+  - title: "A Spatial Concordance Coefficient for Areal Data"
+    authors: ["Ferrer, C.", "Vallejos, R.", "Mateu, J."]
+    event: "XLVII Jornadas Nacionales de Estadística"
+    location: "Valdivia, Chile"
+    date: "November 16-18, 2024"
+    year: 2024
+    role: "speaker"
+  - title: "Is the Effective Sample Size Always Less than the Sample Size? A Spatial Regression Approach"
+    authors: ["Ferrer, C.", "Vallejos, R."]
+    event: "III Congreso Geoestadística y Estadística Espacio-Temporal"
+    location: "Valparaíso, Chile"
+    date: "November 27-29, 2024"
+    year: 2024
+    role: "speaker"
+  - title: "Exploring Transformer-Based Models for Cascading Extremes"
+    authors: ["Ferrer, C.", "De Carvalho, M.", "Vallejos, R."]
+    event: "I Workshop on Generative AI Modelling for Extreme Events"
+    location: "Edinburgh, UK"
+    date: "June 13-14, 2025"
+    year: 2025
+    role: "speaker"
+  - title: "A coefficient to measure agreement between two continuous variables based on a L1 norm"
+    authors: ["Vallejos, R.", "Osorio, F.", "Ferrer, C."]
+    presenter: "Vallejos, R."
+    event: "CMStatistics 2023"
+    location: "Berlin, Germany"
+    date: "December 16-18, 2023"
+    year: 2023
+    role: "co-author"
+  - title: "A concordance coefficient for areal data analysis"
+    authors: ["Vallejos, R.", "Ferrer, C."]
+    presenter: "Vallejos, R."
+    event: "METMA XI: 11th International Conference on Spatio-Temporal Modelling"
+    location: "Lancaster, UK"
+    date: "July 23-25, 2024"
+    year: 2024
+    role: "co-author"
+  - title: "A novel coefficient for assessing agreement between two continuous variables"
+    authors: ["Vallejos, R.", "Osorio, F.", "Ferrer, C."]
+    presenter: "Vallejos, R."
+    event: "25° SINAPE: Simpósio Nacional de Probabilidade e Estatística 2024"
+    location: "Fortaleza, Brazil"
+    date: "August 04-09, 2024"
+    year: 2024
+    role: "co-author"
+  - title: "A Kolmogorov–Arnold Neural Model for Cascading Extremes"
+    authors: ["De Carvalho, M.", "Ferrer, C.", "Vallejos, R."]
+    presenter: "De Carvalho, M."
+    event: "2024 IMS International Conference on Statistics and Data Science (ICSDS)"
+    location: "Nice, France"
+    date: "December 16-19, 2024"
+    year: 2024
+    role: "co-author"
+  - title: "Neural Statistical Modeling of Cascading Extremes"
+    authors: ["De Carvalho, M.", "Ferrer, C.", "Vallejos, R."]
+    presenter: "De Carvalho, M."
+    event: "39th International Workshop on Statistical Modelling"
+    location: "Limerick, Ireland"
+    date: "July 13-18, 2025"
+    year: 2025
+    role: "co-author"
+  - title: "KLAN: Kolmogorov–Lorentz–Arnold neural networks"
+    authors: ["Svetlosak, A.", "De Carvalho, M.", "He, F.", "Wu, W.", "Lee, J.", "Ferrer, C."]
+    presenter: "Svetlosak, A."
+    event: "CFE-CMStatistics 2025"
+    location: "London, UK"
+    date: "December 13-15, 2025"
+    year: 2025
+    role: "co-author"

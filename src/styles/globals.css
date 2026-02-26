@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-light: var(--primary-light);
+  --color-accent: #2b6c6f;
+  --color-accent-light: #3a8b8e;
+  --color-background: var(--bg);
+  --color-foreground: var(--fg);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-border: var(--border-color);
+  --color-muted: var(--muted);
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Source Serif 4", "Georgia", serif;
+  --shadow-sm: 0 1px 2px 0 rgb(26 54 93 / 0.04);
+  --shadow-md: 0 2px 8px -2px rgb(26 54 93 / 0.08), 0 1px 3px -1px rgb(26 54 93 / 0.06);
+  --shadow-lg: 0 4px 16px -4px rgb(26 54 93 / 0.1), 0 2px 6px -2px rgb(26 54 93 / 0.06);
+}
+
+:root {
+  --bg: #faf9f7;
+  --fg: #1a1a2e;
+  --surface: #f3f1ee;
+  --surface-hover: #ece9e4;
+  --border-color: #d8d3cb;
+  --muted: #6b7280;
+  --primary: #1a365d;
+  --primary-dark: #122647;
+  --primary-light: #2a4a7f;
+}
+
+.dark {
+  --bg: #0d1117;
+  --fg: #e6edf3;
+  --surface: #161b22;
+  --surface-hover: #1c2333;
+  --border-color: #30363d;
+  --muted: #8b949e;
+  --primary: #60a5fa;
+  --primary-dark: #93bbfd;
+  --primary-light: #3b82f6;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.2);
+  --shadow-md: 0 2px 8px -2px rgb(0 0 0 / 0.3), 0 0 0 1px rgb(48 54 61 / 0.4);
+  --shadow-lg: 0 4px 16px -4px rgb(0 0 0 / 0.4), 0 0 0 1px rgb(48 54 61 / 0.3);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: rgba(26, 54, 93, 0.15);
+}
+
+.dark ::selection {
+  background-color: rgba(43, 108, 111, 0.3);
+}
+
+/* Typography utilities */
+.text-display {
+  font-size: clamp(2.5rem, 5vw, 3.75rem);
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+}
+
+.text-heading-1 {
+  font-size: clamp(1.875rem, 3vw, 2.5rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+/* Scroll bar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--muted);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--fg);
+}
+
+/* Focus visible */
+*:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+

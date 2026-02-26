@@ -1,0 +1,87 @@
+name: "Clemente Ferrer"
+title: "PhD Student in Statistics"
+affiliation: "Pontificia Universidad Católica de Chile"
+location: "Santiago, Chile"
+bio: "PhD student in Statistics at Pontificia Universidad Católica de Chile, with research interests in extreme value theory, Bayesian nonparametrics, and the intersection of statistics and artificial intelligence. Focused on developing advanced statistical methodology with applications to complex real-world problems."
+photo: "/images/ClementeFerrer_Formal.jpeg"
+
+researchInterests:
+  - name: "Extreme Value Theory"
+    description: "Statistical modeling of rare events and tail dependence structures"
+    icon: "TrendingUp"
+  - name: "Bayesian Nonparametrics"
+    description: "Flexible probabilistic models that adapt complexity to data"
+    icon: "Brain"
+  - name: "Statistics & AI"
+    description: "Integration of classical statistical methods with modern machine learning"
+    icon: "Cpu"
+  - name: "Spatial Statistics"
+    description: "Analysis of spatially referenced data and concordance measures"
+    icon: "Map"
+
+education:
+  - degree: "PhD in Statistics"
+    institution: "Pontificia Universidad Católica de Chile"
+    location: "Santiago, Chile"
+    years: "2026 - present"
+  - degree: "Master of Science in Mathematics"
+    institution: "Universidad Técnica Federico Santa María"
+    location: "Valparaíso, Chile"
+    year: "2024"
+  - degree: "Mathematical Engineering"
+    institution: "Universidad Técnica Federico Santa María"
+    location: "Valparaíso, Chile"
+    years: "2019 - 2024"
+
+awards:
+  - title: "Marcos Orrego Puelma Award"
+    organization: "Chilean Institute of Engineers"
+    year: "2025"
+    description: "Award to the best national engineering graduate of the 2024 cohort."
+  - title: "Academic Excellence List"
+    organization: "Universidad Técnica Federico Santa María"
+    years: "2019-2024"
+    description: "Award for outstanding academic performance, granted for achieving a grade point average of 80 or higher on a scale of 0 to 100."
+  - title: "Perfect Score in University Entrance Exam"
+    organization: "Chilean Minister of Education"
+    year: "2018"
+    description: "Distinction awarded for achieving the highest possible score in the Mathematics section of the Chilean University Selection Test (PSU)."
+
+researchVisits:
+  - institution: "King Abdullah University of Science and Technology (KAUST)"
+    location: "Thuwal, Saudi Arabia"
+    description: "Participant of the Applied Mathematics School 2025 (AMS), a fully sponsored one-week program by the CEMSE Division."
+    dates: "Dec 2025"
+  - institution: "University of Edinburgh"
+    location: "Edinburgh, UK"
+    host: "Prof. Miguel de Carvalho"
+    description: "Research visit focused on extreme value theory and Kolmogorov-Arnold Networks."
+    dates: "Sep 2024"
+
+researchProjects:
+  - years: "2023 – 2024"
+    code: "FONDECYT 1230012"
+    role: "Research Assistant"
+    institution: "National Commission for Scientific and Technological Research (ANID)"
+    title: "Agreement measures for spatio-temporal models with applications to image processing"
+  - years: "2023 – 2024"
+    code: "OEA23205"
+    role: "Research Assistant"
+    institution: "Universidad Técnica Federico Santa María"
+    title: "Academic performance at USM: spatial distribution and pandemic-era trends"
+
+languages:
+  - name: "Spanish"
+    level: "Native"
+  - name: "English"
+    level: "Fluent"
+
+skills:
+  programming: ["Python", "R", "C"]
+  ml: ["PyTorch", "TensorFlow", "Keras"]
+  dl: ["CNNs", "RNNs/LSTMs", "Transformers"]
+  llm: ["LangChain"]
+  mlops: ["Docker", "FastAPI"]
+  databases: ["SQL"]
+  software: ["MATLAB", "Mathematica", "VSCode", "Anaconda"]
+  os: ["Windows", "macOS"]

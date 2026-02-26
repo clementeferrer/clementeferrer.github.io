@@ -1,0 +1,41 @@
+publications:
+  - title: "Is the effective sample size always less than n? A spatial regression approach"
+    authors: ["Ferrer, C.", "Vallejos, R."]
+    journal: "Statistics and Probability Letters"
+    volume: "218"
+    pages: "110309"
+    year: 2025
+    status: "published"
+    doi: "https://doi.org/10.1016/j.spl.2024.110309"
+  - title: "A concordance coefficient for lattice data: An application to poverty indices in Chile"
+    authors: ["Vallejos, R.", "Ferrer, C.", "Mateu, J."]
+    journal: "Spatial Statistics"
+    volume: "70"
+    pages: "100936"
+    year: 2025
+    status: "published"
+    doi: "https://doi.org/10.1016/j.spasta.2024.100936"
+  - title: "A Kolmogorov–Arnold Neural Model for Cascading Extremes"
+    authors: ["De Carvalho, M.", "Ferrer, C.", "Vallejos, R."]
+    journal: "Extremes"
+    year: 2026
+    status: "accepted"
+  - title: "A new coefficient to measure agreement between two continuous variables"
+    authors: ["Vallejos, R.", "Osorio, F.", "Ferrer, C."]
+    journal: "Statistics in Medicine"
+    year: 2025
+    status: "submitted"
+    note: "Under Review"
+  - title: "Modeling first-year engineering student performance during the pandemic"
+    authors: ["Vallejos, R.", "Ferrer, C.", "Vásquez, A.", "Díaz, R.", "Marín, T."]
+    journal: "The New England Journal of Statistics in Data Science"
+    year: 2025
+    status: "submitted"
+  - title: "Generative Cascades of Multivariate Extremes"
+    authors: ["De Carvalho, M.", "Ferrer, C.", "Vallejos, R."]
+    year: 0
+    status: "in-preparation"
+  - title: "KLAN: Kolmogorov-Lorentz-Arnold Neural Networks"
+    authors: ["Svetlosak, A.", "De Carvalho, M.", "He, F.", "Wu, W.", "Lee, J.", "Ferrer, C."]
+    year: 0
+    status: "in-preparation"
