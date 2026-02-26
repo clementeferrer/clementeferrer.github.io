@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://clementeferrer.github.io/sitemap_index.xml
+Sitemap: https://clementeferrer.github.io/sitemap.xml
