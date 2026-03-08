@@ -46,7 +46,7 @@ export default function TeachingPage() {
                         {course.code}
                       </span>
                       {course.materialsUrl ? (
-                        <a href={course.materialsUrl} target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">
+                        <a href={course.materialsUrl} target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline decoration-primary/40 underline-offset-2 hover:decoration-primary">
                           {course.name}
                         </a>
                       ) : (
