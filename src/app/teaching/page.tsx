@@ -45,7 +45,13 @@ export default function TeachingPage() {
                       <span className="font-mono text-sm text-primary font-medium w-20 shrink-0">
                         {course.code}
                       </span>
-                      <span className="font-medium">{course.name}</span>
+                      {course.materialsUrl ? (
+                        <a href={course.materialsUrl} target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">
+                          {course.name}
+                        </a>
+                      ) : (
+                        <span className="font-medium">{course.name}</span>
+                      )}
                       <Badge className="bg-primary/10 text-primary ml-auto">
                         {course.institution}
                       </Badge>

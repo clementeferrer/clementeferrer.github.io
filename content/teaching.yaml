@@ -4,6 +4,7 @@ lecturer:
     institution: "Universidad Técnica Federico Santa María"
     semester: "2025-1"
     year: 2025
+    materialsUrl: "https://usmcl-my.sharepoint.com/:f:/g/personal/clemente_ferrer_usm_cl/IgDegtGrGjRUS64V652qp2mlASg904fLnAkUj_kLbTiSHsk?e=C9yqfz"
   - code: "MAT266"
     name: "Regression Analysis"
     institution: "Universidad Técnica Federico Santa María"
@@ -14,6 +15,7 @@ lecturer:
     institution: "Universidad Técnica Federico Santa María"
     semester: "2025-2"
     year: 2025
+    materialsUrl: "https://usmcl-my.sharepoint.com/:f:/g/personal/clemente_ferrer_usm_cl/IgDCZsNkX4SsT79q_vgTCrUDAe1TpN_uZoqBDnlJ7j9Ak_Q?e=ryipeQ"
   - code: "MAT043"
     name: "Probability Theory"
     institution: "Universidad Técnica Federico Santa María"
@@ -34,11 +36,13 @@ lecturer:
     institution: "Universidad Técnica Federico Santa María"
     semester: "2026-1"
     year: 2026
+    materialsUrl: "https://usmcl-my.sharepoint.com/:f:/g/personal/clemente_ferrer_usm_cl/IgB4B7BOQ4r3Qpa6cywM7Cy5AXK_QdqKHdCB9-n6VcIpgpw"
   - code: "MAT00325"
     name: "Elementary Differential Equations"
     institution: "Universidad Técnica Federico Santa María"
     semester: "2026-1"
     year: 2026
+    materialsUrl: "https://usmcl-my.sharepoint.com/:f:/g/personal/clemente_ferrer_usm_cl/IgCdLnqEL5oZQ5z9kFpn7RhOAfwVFreR4AbkL29rU5egcOI"
 
 ta:
   - name: "Real Analysis"

@@ -98,6 +98,7 @@ export interface LecturerCourse {
   institution: string;
   semester: string;
   year: number;
+  materialsUrl?: string;
 }
 
 export interface TACourse {
