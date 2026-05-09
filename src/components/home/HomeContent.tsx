@@ -10,6 +10,7 @@ import { useTheme } from "next-themes";
 import { Download, Mail, Github, Linkedin, GraduationCap, Newspaper, Lightbulb } from "lucide-react";
 import ResearchInterests from "@/components/profile/ResearchInterests";
 import { formatMonthYear } from "@/lib/utils";
+import { renderMarkdownLinks } from "@/lib/renderMarkdownLinks";
 import type { Profile, Social, NewsItem } from "@/lib/types";
 
 const DensitySurface = dynamic(
@@ -168,7 +169,7 @@ export default function HomeContent({ profile, social, news }: HomeContentProps)
               </span>
               <p className="font-medium text-sm leading-snug">{item.title}</p>
               <p className="text-sm text-muted mt-0.5">
-                {item.description}
+                {renderMarkdownLinks(item.description)}
               </p>
             </div>
           ))}

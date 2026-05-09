@@ -4,22 +4,8 @@ import Badge from "@/components/ui/Badge";
 import AnimatedContainer from "@/components/ui/AnimatedContainer";
 import { timelineEnter } from "@/lib/animations";
 import { formatDate, getTagColor } from "@/lib/utils";
+import { renderMarkdownLinks } from "@/lib/renderMarkdownLinks";
 import type { NewsItem } from "@/lib/types";
-
-function renderMarkdownLinks(text: string) {
-  const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
-  return parts.map((part, i) => {
-    const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
-    if (match) {
-      return (
-        <a key={i} href={match[2]} target="_blank" rel="noopener noreferrer" className="text-primary underline decoration-primary/40 underline-offset-2 hover:decoration-primary">
-          {match[1]}
-        </a>
-      );
-    }
-    return part;
-  });
-}
 
 interface NewsTimelineProps {
   news: NewsItem[];
