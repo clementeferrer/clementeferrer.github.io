@@ -2,7 +2,7 @@
 items:
   - date: "2026-05-09"
     title: "Talk at SPA 2026"
-    description: "I will attend [SPA 2026](https://events.ces.scl.cornell.edu/event/spa2026/summary) to present a talk on generative cascades of multivariate extremes."
+    description: "I will attend the [45th Conference on Stochastic Processes and their Applications (SPA 2026)](https://events.ces.scl.cornell.edu/event/spa2026/summary) in Ithaca, NY, USA, to present a talk on generative cascades of multivariate extremes."
     tag: "conference"
   - date: "2026-02-01"
     title: "ANID Doctoral Scholarship"
