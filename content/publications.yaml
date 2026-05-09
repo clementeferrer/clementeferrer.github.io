@@ -31,7 +31,7 @@ publications:
     year: 2025
     status: "submitted"
   - title: "Generative Cascades of Multivariate Extremes"
-    authors: ["De Carvalho, M.", "Ferrer, C.", "Vallejos, R."]
+    authors: ["De Carvalho, M.", "Ferrer, C.", "Vallejos, R.", "Sabanis, S.", "Ma, T."]
     year: 0
     status: "in-preparation"
   - title: "KLAN: Kolmogorov-Lorentz-Arnold Neural Networks"

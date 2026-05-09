@@ -4,7 +4,6 @@ import { useState } from "react";
 import { BookOpen } from "lucide-react";
 import FilterBar from "@/components/publications/FilterBar";
 import PublicationCard from "@/components/publications/PublicationCard";
-import ExportButton from "@/components/publications/ExportButton";
 import AnimatedContainer from "@/components/ui/AnimatedContainer";
 import type { Publication } from "@/lib/types";
 
@@ -37,7 +36,6 @@ export default function PublicationsClient({
               Publications
             </h2>
           </div>
-          <ExportButton publications={publications} />
         </div>
         <FilterBar
           filters={pubFilters}
