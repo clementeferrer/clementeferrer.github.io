@@ -34,6 +34,10 @@ publications:
     authors: ["De Carvalho, M.", "Ferrer, C.", "Vallejos, R.", "Sabanis, S.", "Ma, T."]
     year: 0
     status: "in-preparation"
+  - title: "Amortized Inference for DP Mixture Model"
+    authors: ["Ferrer, C.", "Gutierrez, L.", "De Carvalho, M.", "Huser, R."]
+    year: 0
+    status: "in-preparation"
   - title: "KLAN: Kolmogorov-Lorentz-Arnold Neural Networks"
     authors: ["Svetlosak, A.", "De Carvalho, M.", "He, F.", "Wu, W.", "Lee, J.", "Ferrer, C."]
     year: 0
