@@ -6,6 +6,21 @@ import { timelineEnter } from "@/lib/animations";
 import { formatDate, getTagColor } from "@/lib/utils";
 import type { NewsItem } from "@/lib/types";
 
+function renderMarkdownLinks(text: string) {
+  const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
+  return parts.map((part, i) => {
+    const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (match) {
+      return (
+        <a key={i} href={match[2]} target="_blank" rel="noopener noreferrer" className="text-primary underline decoration-primary/40 underline-offset-2 hover:decoration-primary">
+          {match[1]}
+        </a>
+      );
+    }
+    return part;
+  });
+}
+
 interface NewsTimelineProps {
   news: NewsItem[];
 }
@@ -32,7 +47,7 @@ export default function NewsTimeline({ news }: NewsTimelineProps) {
                 </span>
               </div>
               <h3 className="font-semibold">{item.title}</h3>
-              <p className="text-sm text-muted mt-1">{item.description}</p>
+              <p className="text-sm text-muted mt-1">{renderMarkdownLinks(item.description)}</p>
             </div>
           </div>
         </AnimatedContainer>

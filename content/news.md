@@ -1,5 +1,9 @@
 ---
 items:
+  - date: "2026-05-09"
+    title: "Talk at SPA 2026"
+    description: "I will attend [SPA 2026](https://events.ces.scl.cornell.edu/event/spa2026/summary) to present a talk on generative cascades of multivariate extremes."
+    tag: "conference"
   - date: "2026-02-01"
     title: "ANID Doctoral Scholarship"
     description: "I was awarded the ANID National Doctoral Scholarship to fund my PhD in Statistics at Pontificia Universidad Católica de Chile."
