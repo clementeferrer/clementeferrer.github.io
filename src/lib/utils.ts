@@ -80,6 +80,7 @@ const countryFlags: Record<string, string> = {
   France: "\u{1F1EB}\u{1F1F7}",
   Ireland: "\u{1F1EE}\u{1F1EA}",
   "Saudi Arabia": "\u{1F1F8}\u{1F1E6}",
+  USA: "\u{1F1FA}\u{1F1F8}",
 };
 
 export function getFlag(location: string): string {

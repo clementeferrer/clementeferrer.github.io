@@ -1,4 +1,11 @@
 conferences:
+  - title: "Generative Cascades of Multivariate Extremes"
+    authors: ["Ferrer, C.", "De Carvalho, M.", "Vallejos, R.", "Sabanis, S.", "Ma, T."]
+    event: "45th Conference on Stochastic Processes and their Applications"
+    location: "Ithaca, USA"
+    date: "June 14-20, 2026"
+    year: 2026
+    role: "speaker"
   - title: "Exploring Transformer-Based Models for Cascading Extremes"
     authors: ["Ferrer, C.", "De Carvalho, M.", "Vallejos, R."]
     event: "I Workshop on Generative AI Modelling for Extreme Events"
