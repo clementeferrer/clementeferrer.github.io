@@ -1,4 +1,10 @@
 publications:
+  - title: "A Kolmogorov\u2013Arnold Neural Model for Cascading Extremes"
+    authors: ["De Carvalho, M.", "Ferrer, C.", "Vallejos, R."]
+    journal: "Extremes"
+    year: 2026
+    status: "published"
+    doi: "https://doi.org/10.1007/s10687-026-00532-z"
   - title: "Is the Effective Sample Size Always Less Than n? A Spatial Regression Approach"
     authors: ["Ferrer, C.", "Vallejos, R."]
     journal: "Statistics and Probability Letters"
@@ -15,12 +21,6 @@ publications:
     year: 2025
     status: "published"
     doi: "https://doi.org/10.1016/j.spasta.2024.100936"
-  - title: "A Kolmogorov\u2013Arnold Neural Model for Cascading Extremes"
-    authors: ["De Carvalho, M.", "Ferrer, C.", "Vallejos, R."]
-    journal: "Extremes"
-    year: 2026
-    status: "published"
-    doi: "https://doi.org/10.1007/s10687-026-00532-z"
   - title: "A New Coefficient to Measure Agreement Between Two Continuous Variables"
     authors: ["Vallejos, R.", "Osorio, F.", "Ferrer, C."]
     journal: "Biometrical Journal"
