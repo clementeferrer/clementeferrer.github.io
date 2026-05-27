@@ -52,6 +52,10 @@ awards:
     description: "Distinction awarded for achieving the highest possible score in the Mathematics section of the Chilean University Selection Test (PSU)."
 
 researchVisits:
+  - institution: "University of Edinburgh"
+    location: "Edinburgh, UK"
+    description: "Computational session leader on Generative Models for Extremes at the Edinburgh Summer School on Generative AI for Extremes."
+    dates: "Sep 2026"
   - institution: "King Abdullah University of Science and Technology (KAUST)"
     location: "Thuwal, Saudi Arabia"
     description: "Participant of the Applied Mathematics School 2025 (AMS), a fully sponsored one-week program by the CEMSE Division."
