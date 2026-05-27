@@ -1,5 +1,9 @@
 ---
 items:
+  - date: "2026-05-27"
+    title: "Invited to Edinburgh Summer School"
+    description: "I was invited to lead a computational session on Generative AI for Extremes at the [Edinburgh Summer School on Generative AI for Extremes](https://gamex-network.github.io/school/) in Edinburgh, UK."
+    tag: "conference"
   - date: "2026-05-09"
     title: "Talk at SPA 2026"
     description: "I will attend the [45th Conference on Stochastic Processes and their Applications (SPA 2026)](https://events.ces.scl.cornell.edu/event/spa2026/summary) in Ithaca, NY, USA, to present a talk on generative cascades of multivariate extremes."
