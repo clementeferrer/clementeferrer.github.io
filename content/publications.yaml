@@ -19,7 +19,8 @@ publications:
     authors: ["De Carvalho, M.", "Ferrer, C.", "Vallejos, R."]
     journal: "Extremes"
     year: 2026
-    status: "accepted"
+    status: "published"
+    doi: "https://doi.org/10.1007/s10687-026-00532-z"
   - title: "A New Coefficient to Measure Agreement Between Two Continuous Variables"
     authors: ["Vallejos, R.", "Osorio, F.", "Ferrer, C."]
     journal: "Biometrical Journal"
