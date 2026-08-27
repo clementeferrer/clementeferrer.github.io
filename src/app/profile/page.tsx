@@ -30,6 +30,9 @@ export default function ProfilePage() {
               I am a PhD student in Statistics at Pontificia Universidad Católica de Chile, under the supervision of Luis Gutiérrez (PUC) and Miguel de Carvalho (University of Edinburgh). I am interested in the sequential modeling of cascading extreme events, and lately I have been studying neural methods for amortized inference. More broadly, my work sits at the intersection of extreme value theory, Bayesian nonparametrics, and modern machine learning.
             </p>
             <p>
+              I also work as a Chief Risk Officer at Quantum Wave, where I focus on algorithmic risk architectures, extreme value theory modeling for portfolio risk assessment, and developing generative AI stress-testing frameworks.
+            </p>
+            <p>
               Before starting my doctorate, I completed a Mathematical Engineering degree and a Master of Science in Mathematics at Universidad Técnica Federico Santa María, graduating with highest honors. During that time I became passionate about spatial statistics, Bayesian analysis, and the role neural architectures can play in classical statistical problems.
             </p>
             <p>
