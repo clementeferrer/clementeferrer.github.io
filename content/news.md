@@ -1,5 +1,17 @@
 ---
 items:
+  - date: "2026-08-15"
+    title: "Talk at XLVIII JNE 2026"
+    description: "I will give a talk at [XLVIII JNE 2026](https://soche.cl/xlviii-jornadas-nacionales-de-estadistica-2026/) in Valparaíso, Chile, presenting research on Amortized Inference for Infinite Mixture Models."
+    tag: "conference"
+  - date: "2026-07-15"
+    title: "Chief Risk Officer at Quantum Wave"
+    description: "I started a new role as Chief Risk Officer at Quantum Wave, focusing on algorithmic risk architectures, Extreme Value Theory (EVT) modeling, and generative AI stress-testing frameworks for portfolio risk governance."
+    tag: "research"
+  - date: "2026-07-01"
+    title: "IC2UHI 2026 Proceeding Published"
+    description: "An exciting multidisciplinary work on Bayesian Calibration and Architecture for Urban Heat Island mitigation will be published as a proceeding at the 7th International Conference on Countermeasures to Urban Heat Islands (IC2UHI 2026) in Nanjing, China."
+    tag: "conference"
   - date: "2026-05-27"
     title: "Invited to Edinburgh Summer School"
     description: "I was invited to lead a computational session on Generative AI for Extremes at the [Edinburgh Summer School on Generative AI for Extremes](https://gamex-network.github.io/school/) in Edinburgh, UK."
