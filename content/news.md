@@ -10,7 +10,7 @@ items:
     tag: "research"
   - date: "2026-07-01"
     title: "IC2UHI 2026 Proceeding Published"
-    description: "An exciting multidisciplinary work on Bayesian Calibration and Architecture for Urban Heat Island mitigation will be published as a proceeding at the 7th International Conference on Countermeasures to Urban Heat Islands (IC2UHI 2026) in Nanjing, China."
+    description: "An exciting multidisciplinary work on Bayesian Calibration and Architecture for Urban Heat Island mitigation will be published as a proceeding at the [7th International Conference on Countermeasures to Urban Heat Islands (IC2UHI 2026)](https://www.ic2uhi2026.com) in Nanjing, China."
     tag: "conference"
   - date: "2026-05-27"
     title: "Invited to Edinburgh Summer School"
