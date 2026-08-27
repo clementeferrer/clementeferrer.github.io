@@ -2,7 +2,7 @@ conferences:
   - title: "Amortized Inference for Infinite Mixture Models"
     authors: ["Ferrer, C.", "Gutiérrez, L.", "De Carvalho, M.", "Huser, R."]
     event: "XLVIII Jornadas Nacionales de Estadística"
-    location: "🇨🇱 Valparaíso, Chile"
+    location: "Valparaíso, Chile"
     date: "October 20-23, 2026"
     year: 2026
     role: "speaker"
