@@ -2,7 +2,6 @@ conferences:
   - title: "Amortized Inference for Infinite Mixture Models"
     authors: ["Ferrer, C.", "Gutiérrez, L.", "De Carvalho, M.", "Huser, R."]
     event: "VIII Latin American Meeting on Bayesian Statistics & XVIII Brazilian Meeting of Bayesian Statistics"
-    url: "https://cobalebeb2027.softaliza.com.br"
     location: "Búzios, Brazil"
     date: "March 1-5, 2027"
     year: 2027
