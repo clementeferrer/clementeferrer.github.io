@@ -1,8 +1,8 @@
 ---
 items:
   - date: "2026-10-16"
-    title: "Heading to Brazil for COBAL-EBEB 2027!"
-    description: "I'm thrilled to announce that I will present our work on Amortized Inference for Infinite Mixture Models at the VIII Latin American Meeting on Bayesian Statistics & XVIII Brazilian Meeting of Bayesian Statistics in Búzios, Brazil, March 1-5, 2027. Sharing Bayesian ideas with colleagues from across Latin America, all in one of the most beautiful corners of Brazil, with its stunning beaches, warm sea and breathtaking coastline, is truly a dream come true. I can't wait!"
+    title: "Talk at COBAL-EBEB 2027"
+    description: "I will present our work on Amortized Inference for Infinite Mixture Models at COBAL-EBEB 2027 in Búzios, Brazil. Can't wait to visit such a beautiful country!"
     tag: "conference"
   - date: "2026-08-15"
     title: "Talk at XLVIII JNE 2026"
