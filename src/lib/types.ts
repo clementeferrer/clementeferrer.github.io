@@ -86,6 +86,7 @@ export interface Conference {
   authors: string[];
   presenter?: string;
   event: string;
+  url?: string;
   location: string;
   date: string;
   year: number;

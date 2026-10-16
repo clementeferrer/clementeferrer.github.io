@@ -67,7 +67,18 @@ export default function ConferenceList({ conferences }: ConferenceListProps) {
                       }}
                     />
                     <p className="text-sm mt-1">
-                      <span className="font-medium">{conf.event}</span>
+                      {conf.url ? (
+                        <a
+                          href={conf.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="font-medium text-primary underline decoration-primary/40 underline-offset-2 hover:decoration-primary"
+                        >
+                          {conf.event}
+                        </a>
+                      ) : (
+                        <span className="font-medium">{conf.event}</span>
+                      )}
                     </p>
                     <p className="text-sm text-muted mt-0.5">
                       <span className="text-sm">{getFlag(conf.location)}</span>{" "}
