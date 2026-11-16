@@ -34,6 +34,10 @@ education:
     years: "2019 - 2024"
 
 awards:
+  - title: "Distinguished Lecturer"
+    organization: "Universidad Técnica Federico Santa María"
+    year: "2026"
+    description: "Annual distinction granted to top-rated faculty based on student teaching evaluations from the 2025 academic year."
   - title: "ANID National Doctoral Scholarship"
     organization: "National Agency for Research and Development (ANID)"
     year: "2026"
