@@ -1,8 +1,12 @@
 ---
 items:
+  - date: "2026-11-16"
+    title: "Distinguished Lecturer 2026 at USM"
+    description: "I have been recognized as \"Maestro Destacado\" (Distinguished Lecturer) 2026 by Universidad Técnica Federico Santa María (USM), based on student evaluations from my 2025 courses. Teaching mathematics has been a privilege, and knowing that my work left a positive impact on my students is the best reward I could ask for. Thank you to the students and the Departamento de Matemática USM!"
+    tag: "award"
   - date: "2026-10-16"
     title: "Talk at COBAL-EBEB 2027"
-    description: "I will present our work on Amortized Inference for Infinite Mixture Models at COBAL-EBEB 2027 in Búzios, Brazil. Can't wait to visit such a beautiful country!"
+    description: "I will present our work on Amortized Inference for Infinite Mixture Models at [COBAL-EBEB 2027](https://cobalebeb2027.softaliza.com.br) in Búzios, Brazil. Can't wait to visit such a beautiful country!"
     tag: "conference"
   - date: "2026-08-15"
     title: "Talk at XLVIII JNE 2026"
